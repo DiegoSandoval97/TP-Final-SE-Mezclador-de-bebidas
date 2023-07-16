@@ -11,7 +11,6 @@
 
 void beakerDetectionInit();
 void beakerDetectionUpdate();
-void beakerDetectionDeactivate();
 
 bool positionDetectorStateRead();
 bool beakerDetectedRead();

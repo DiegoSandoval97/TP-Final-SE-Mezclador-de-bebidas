@@ -24,6 +24,8 @@ static bool positionDetectorState           = OFF;
 
 //=====[Declarations (prototypes) of private functions]========================
 
+static void beakerDetectionDeactivate();
+
 //=====[Implementations of public functions]===================================
 
 void beakerDetectionInit()
@@ -53,9 +55,10 @@ bool beakerDetectedRead()
     return beakerDetected;
 }
 
-void beakerDetectionDeactivate()
+
+
+//=====[Implementations of private functions]==================================
+static void beakerDetectionDeactivate()
 {
     beakerDetected = OFF;    
 }
-
-//=====[Implementations of private functions]==================================
